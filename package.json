@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-es6-template-engine": "^2.2.1",
+    "file-system": "^2.2.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "miragejs": "^0.1.35",
+    "nodemon": "^2.0.2"
+  }
+}
